@@ -1,0 +1,21 @@
+table DeveloperList {
+    developers : [Developer];
+}
+
+table Developer {
+    id : long;
+    first_name : string;
+    last_name : string;
+    age : int;
+    gender : string;
+    email : string;
+    skill : string;
+    friends : [Friend];
+}
+
+table Friend {
+    id : long;
+    name : string;
+}
+
+root_type DeveloperList;

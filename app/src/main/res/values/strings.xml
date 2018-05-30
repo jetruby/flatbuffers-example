@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlatBuffers</string>
+    <string name="process_result">%s ms</string>
+</resources>
